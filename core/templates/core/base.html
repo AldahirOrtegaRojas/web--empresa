@@ -28,8 +28,8 @@
   <body>
 
     <h1 class="site-heading text-center text-white d-none d-lg-block">
-      <span class="site-heading-upper text-primary mb-3">L'autentico caffè d'italia</span>
-      <span class="site-heading-lower">La Caffettiera</span>
+      <span class="site-heading-upper text-primary mb-3">Resouts & Spa</span>
+      <span class="site-heading-lower">Hotel la Luna</span>
     </h1>
 
     <!-- Navegación -->
@@ -42,22 +42,22 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item px-lg-4 {% if request.path == '/' %}active{% endif %}">
-              <a class="nav-link text-uppercase text-expanded" href="{% url 'home' %}">Inicio</a>
+              <a class="nav-link text-uppercase text-expanded" href="{% url 'home' %}">INICIO</a>
             </li>
             <li class="nav-item px-lg-4 {% if request.path == '/about/' %}active{% endif %}">
-              <a class="nav-link text-uppercase text-expanded" href="{% url 'about' %}">Historia</a>
+              <a class="nav-link text-uppercase text-expanded" href="{% url 'about' %}">HITORIA</a>
             </li>
             <li class="nav-item px-lg-4 {% if request.path == '/services/' %}active{% endif %}">
-              <a class="nav-link text-uppercase text-expanded" href="{% url 'services' %}">Servicios</a>
+              <a class="nav-link text-uppercase text-expanded" href="{% url 'services' %}">¿QUE HACEMOS?</a>
             </li>
             <li class="nav-item px-lg-4 {% if request.path == '/store/' %}active{% endif %}">
-              <a class="nav-link text-uppercase text-expanded" href="{% url 'store' %}">Visítanos</a>
+              <a class="nav-link text-uppercase text-expanded" href="{% url 'store' %}">¿DONDE ESTAMOS?</a>
             </li>
             <li class="nav-item px-lg-4 {% if request.path == '/contact/' %}active{% endif %}">
-              <a class="nav-link text-uppercase text-expanded" href="{% url 'contact' %}">Contacto</a>
+              <a class="nav-link text-uppercase text-expanded" href="{% url 'contact' %}">CONTACTANOS</a>
             </li>
             <li class="nav-item px-lg-4 {% if request.path|slice:":6" == '/blog/' %}active{% endif %}">
-              <a class="nav-link text-uppercase text-expanded" href="{% url 'blog' %}">Blog</a>
+              <a class="nav-link text-uppercase text-expanded" href="{% url 'blog' %}">¿COMO ES EL HOSPEDAJE?</a>
             </li>
           </ul>
         </div>
